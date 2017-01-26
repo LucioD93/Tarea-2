@@ -60,15 +60,6 @@ def calcularPrecio(tarifa, tiempoDeServicio):
         raise Exception
     return tarifa * horas
 
-# if __name__ == '__main__':
-#     t = Tarifa();
-#     tarifa = 10.0
-#     inicio = datetime.strptime("1 Jan 2017 13:00", "%d %b %Y %H:%M")
-#     fin = datetime.strptime("1 Jan 2017 14:15", "%d %b %Y %H:%M")
-#     tiempo = [inicio, fin]
-#     total = calcularPrecio(tarifa, tiempo)
-#     print("Total: " + repr(total))
-
 unittest.main()
 
 
